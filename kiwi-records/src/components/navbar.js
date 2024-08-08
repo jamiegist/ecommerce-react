@@ -5,7 +5,7 @@ export function NavBar() {
         <div>
             <header>
                 <a href="index.html">
-                    Sky Blue Records
+                    Kiwi Records
                 </a>
                 <nav className="navbar">
                     <li className="nav-dropdown">
