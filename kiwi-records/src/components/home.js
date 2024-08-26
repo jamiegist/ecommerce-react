@@ -4,7 +4,7 @@ import Link from 'react-dom';
 
 export function Home() {
     return (
-        <div className="home-container container-fluid text-center col-3 mt-4">
+        <div className="home-container">
             <h1>Welcome to Kiwi Records!</h1>
             <img className="home-img" src={img} alt="" />
 
