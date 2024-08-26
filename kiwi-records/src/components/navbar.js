@@ -1,25 +1,18 @@
 import './navbar.css';
+import { useNavigate } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 
 export function NavBar() {
     return (
-        <div>
-            <header>
-                <a href="index.html">
-                    Kiwi Records
-                </a>
-                <nav className="navbar">
-                    <li className="nav-dropdown">
-                        <a className="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
-                            aria-haspopup="true" aria-expanded="false">
-                            Menu
-                        </a>
-                        <div className="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <a className="dropdown-item" href="index.html">Home</a>
-                            <a className="dropdown-item" href="shop.html">Shop</a>
-                        </div>
-                    </li>
-                </nav>
-            </header>
-        </div>
+        <nav>
+            <ul>
+                <li>
+                    <NavLink to="/home">Home</NavLink>
+                </li>
+                <li>
+                    <NavLink to="/shop">Shop</NavLink>
+                </li>
+            </ul>
+        </nav>
     );
 }
