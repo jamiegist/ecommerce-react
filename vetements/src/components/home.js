@@ -1,5 +1,5 @@
 import './home.css';
-import img from '../images/kiwi.jpeg';
+import img from '../images/homepage.jpg';
 import Link from 'react-dom';
 
 export function Home() {
