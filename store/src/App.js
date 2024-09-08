@@ -22,6 +22,7 @@ function App() {
 
         <main>
           <Home />
+          <Shop />
         </main>
 
         <Routes>

@@ -1,0 +1,31 @@
+.home-img {
+    width: 100%;
+    opacity: 50%;
+}
+
+.home-container {
+    text-align: center;
+    padding-top: 0.75em;
+    background-color: black;
+    position: relative;
+}
+
+h1 {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 3.5em;
+    background-color: black;
+    color: white;
+}
+
+button {
+    color: white;
+    background-color: black;
+    position: absolute;
+    left: 50px;
+    right: 50px;
+    
+}
+
+button:hover {
+    cursor: pointer;
+}
