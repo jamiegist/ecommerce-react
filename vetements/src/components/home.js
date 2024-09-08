@@ -5,10 +5,10 @@ import Link from 'react-dom';
 export function Home() {
     return (
         <div className="home-container">
-            <h1>Welcome to Kiwi Records!</h1>
+            <h1>Welcome to Vetements!</h1>
             <img className="home-img" src={img} alt="" />
 
-            <h2>You're so close to your new favorite record!</h2>
+            <h2>Shop Now</h2>
         </div>
     );
 }
